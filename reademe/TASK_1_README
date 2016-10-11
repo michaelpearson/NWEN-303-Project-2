@@ -1,0 +1,7 @@
+The echo client and server have been changed to check for the new knock knock joke.
+The server simply waits for a connection, once connected it waits for the message "knock knock"
+The client sends the line "Knock, knock" which the server then responds to. This goes until the client is finished and disconnects.
+
+The Search program was modified to take another parameter. The parameter is a long integer which specifies how many
+iterations of the loop should be run. Each iteration of the loop the key is incremented by one, so the number of
+ iterations is equal to the search size.
